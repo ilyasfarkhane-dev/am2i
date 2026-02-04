@@ -2,23 +2,13 @@
 
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-
-const MISSION_GOALS = [
-  'Promote excellence in AI research and innovation',
-  'Support international conferences, workshops, and training activities',
-  'Encourage high-quality publications and responsible research practices',
-  'Strengthen academic and professional networks',
-  'Foster impactful AI applications for society and sustainable development',
-] as const;
-
-const KEY_PRINCIPLES = [
-  'Excellence in research with scientific integrity and reproducibility standards',
-  'Responsible AI development with focus on ethical and sustainable applications',
-  'International collaboration fostering knowledge exchange between institutions',
-  'Community engagement and capacity building for the next generation of AI researchers',
-] as const;
+import { useTranslations } from 'next-intl';
 
 export function Mission() {
+  const t = useTranslations('mission');
+  const goals = t.raw('goals') as string[];
+  const principles = t.raw('principles') as string[];
+
   return (
     <section
       id="mission"
@@ -32,16 +22,16 @@ export function Mission() {
             className="mb-4 bg-[#022ea8] text-white hover:bg-[#022ea8] border-0"
             variant="secondary"
           >
-            Our Direction
+            {t('badge')}
           </Badge>
           <h2
             id="mission-heading"
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight"
           >
-            AM2I Aims To
+            {t('heading')}
           </h2>
           <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Building a stronger AI ecosystem through research, collaboration, and innovation
+            {t('subheading')}
           </p>
         </header>
 
@@ -51,7 +41,7 @@ export function Mission() {
           className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-16"
           role="list"
         >
-          {MISSION_GOALS.map((goal, index) => (
+          {goals.map((goal, index) => (
             <Card
               key={index}
               data-gsap="reveal-card"
@@ -81,14 +71,14 @@ export function Mission() {
           <div className="absolute left-0 top-0 bottom-0 w-1 rounded-l-2xl bg-[#022ea8]" aria-hidden />
           <header className="mb-6 pl-4">
             <h3 className="text-2xl sm:text-3xl font-bold text-foreground">
-              Key Principles
+              {t('principlesHeading')}
             </h3>
             <p className="text-muted-foreground mt-1 text-sm sm:text-base">
-              The values that guide our work and partnerships
+              {t('principlesSubheading')}
             </p>
           </header>
           <ul data-gsap="mission-list" className="space-y-4 pl-4" role="list">
-            {KEY_PRINCIPLES.map((principle, index) => (
+            {principles.map((principle, index) => (
               <li
                 key={index}
                 data-gsap="bullet"
