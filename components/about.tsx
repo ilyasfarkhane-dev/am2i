@@ -3,6 +3,19 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
+const officeTranslations: Record<string, string> = {
+  officeMembers: 'Office Members',
+  officeMembersSub: 'Each with their role.',
+  office1: 'President: Ben El Ahmar El Habib',
+  office2: 'Vice President: Sanaa El Filali',
+  office3: 'General Secretary: Fawzia Benabbo',
+  office4: 'Deputy General Secretary: Mohamed Ait Daoud',
+  office5: 'Treasurer: Omar Zahour',
+  office6: 'Advisor: Sara Quahabi',
+  office7: 'Advisor: Mohcine Ben El Tayeb',
+};
+const t = (key: string) => officeTranslations[key] ?? key;
+
 const keyMissions = [
   'Support researchers, PhD students, and innovators in AI and data science',
   'Encourage partnerships between Moroccan and international institutions',
@@ -68,6 +81,24 @@ export function About() {
           <p className="text-gray-700 leading-relaxed">
             We believe that AI innovation should be accessible, ethical, and beneficial to society. AM2I creates spaces where researchers, academics, students, and professionals can collaborate, share knowledge, and develop solutions that address real-world challenges while maintaining the highest standards of scientific integrity.
           </p>
+        </div>
+
+        <div
+          data-gsap="reveal-section"
+          className="mt-16 p-8 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm"
+        >
+          <h3 className="text-2xl font-bold text-foreground mb-2">
+            {t('officeMembers')}
+          </h3>
+          <p className="text-muted-foreground mb-6">{t('officeMembersSub')}</p>
+          <ul className="space-y-2 text-foreground">
+            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+              <li key={i} className="flex gap-2">
+                <span className="text-primary">•</span>
+                <span>{t(`office${i}`)}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
