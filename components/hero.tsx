@@ -1,8 +1,11 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
 
 export function Hero() {
+  const t = useTranslations('hero');
+
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -29,14 +32,14 @@ export function Hero() {
           data-gsap="hero-title"
           className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6"
         >
-          AM2I — Moroccan Association for Artificial Intelligence and Innovation
+          {t('title')}
         </h1>
 
         <p
           data-gsap="hero-subtitle"
           className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-12 text-balance"
         >
-          A scientific non-profit dedicated to advancing AI research, innovation, and capacity building in Morocco and internationally. We support high-quality scientific events, promote research dissemination, and encourage collaboration between academia, industry, and public institutions.
+          {t('subtitle')}
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -45,7 +48,7 @@ export function Hero() {
             size="lg"
             className="bg-[#022ea8] text-white"
           >
-            Explore Our Mission
+            {t('exploreMission')}
           </Button>
           <Button
             onClick={() => handleScroll('contact')}
@@ -53,7 +56,7 @@ export function Hero() {
             size="lg"
             className="border-gray-300 text-gray-900 hover:bg-gray-50"
           >
-            Get in Touch
+            {t('getInTouch')}
           </Button>
         </div>
       </div>

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "mission": "Mission",
+    "about": "About",
+    "activities": "Activities",
+    "membership": "Membership",
+    "contact": "Contact",
+    "joinAm2i": "Join AM2I"
+  },
+  "hero": {
+    "title": "AM2I — Moroccan Association for Artificial Intelligence and Innovation",
+    "subtitle": "A scientific non-profit dedicated to advancing AI research, innovation, and capacity building in Morocco and internationally. We support high-quality scientific events, promote research dissemination, and encourage collaboration between academia, industry, and public institutions.",
+    "exploreMission": "Explore Our Mission",
+    "getInTouch": "Get in Touch"
+  },
+  "mission": {
+    "badge": "Our Direction",
+    "heading": "AM2I Aims To",
+    "subheading": "Building a stronger AI ecosystem through research, collaboration, and innovation",
+    "goals": [
+      "Promote excellence in AI research and innovation",
+      "Support international conferences, workshops, and training activities",
+      "Encourage high-quality publications and responsible research practices",
+      "Strengthen academic and professional networks",
+      "Foster impactful AI applications for society and sustainable development"
+    ],
+    "principlesHeading": "Key Principles",
+    "principlesSubheading": "The values that guide our work and partnerships",
+    "principles": [
+      "Excellence in research with scientific integrity and reproducibility standards",
+      "Responsible AI development with focus on ethical and sustainable applications",
+      "International collaboration fostering knowledge exchange between institutions",
+      "Community engagement and capacity building for the next generation of AI researchers"
+    ]
+  },
+  "about": {
+    "badge": "Who We Are",
+    "heading": "About AM2I",
+    "intro": "The Moroccan Association for Artificial Intelligence and Innovation (AM2I) is a scientific association committed to building a strong AI ecosystem through research promotion, knowledge transfer, and international collaboration.",
+    "keyMissions": [
+      "Support researchers, PhD students, and innovators in AI and data science",
+      "Encourage partnerships between Moroccan and international institutions",
+      "Promote responsible AI, scientific integrity, and reproducibility",
+      "Contribute to training and awareness through seminars and events",
+      "Provide a sustainable platform for AI innovation and research dissemination"
+    ],
+    "cardTitle": "Supporting Global Innovation",
+    "cardText": "AM2I actively supports initiatives such as IANLP 2026, contributing to the development of international scientific exchange in AI and Natural Language Processing.",
+    "initiativeLabel": "Key Initiative",
+    "initiativeName": "IANLP 2026 — International Conference on AI & NLP",
+    "commitmentTitle": "Our Commitment",
+    "commitmentText": "We believe that AI innovation should be accessible, ethical, and beneficial to society. AM2I creates spaces where researchers, academics, students, and professionals can collaborate, share knowledge, and develop solutions that address real-world challenges while maintaining the highest standards of scientific integrity."
+  },
+  "activities": {
+    "badge": "What We Do",
+    "heading": "AM2I Activities",
+    "subheading": "Comprehensive programs designed to advance AI research and innovation",
+    "items": [
+      { "title": "Conferences & Workshops", "description": "International events in AI, NLP, and data science" },
+      { "title": "Seminars & Webinars", "description": "Expert talks and research presentations" },
+      { "title": "Training Sessions", "description": "Capacity building for students and professionals" },
+      { "title": "Research Networks", "description": "Academic collaboration programs" },
+      { "title": "Publication Support", "description": "Scientific dissemination initiatives" },
+      { "title": "Community Engagement", "description": "Responsible and impactful AI discussions" }
+    ]
+  },
+  "membership": {
+    "badge": "Join Our Community",
+    "heading": "AM2I Membership",
+    "subheading": "AM2I welcomes researchers, academics, students, and professionals interested in Artificial Intelligence and innovation.",
+    "benefitsTitle": "Member Benefits",
+    "benefits": [
+      "Access to AM2I scientific events and networking opportunities",
+      "Collaboration and partnership opportunities",
+      "Visibility through AM2I-supported activities and initiatives",
+      "Participation in scientific committees and community actions"
+    ],
+    "cta": "Membership Coming Soon",
+    "ctaNote": "More details about membership fees and application process will be available soon."
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "heading": "Contact AM2I",
+    "subheading": "Have questions? We'd love to hear from you. Reach out to us through any of these channels.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationSub": "Hassan II University",
+    "sendMessageTitle": "Send us a Message",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "message": "Message",
+    "placeholderName": "Your name",
+    "placeholderEmail": "your.email@example.com",
+    "placeholderMessage": "Tell us about your inquiry...",
+    "sendButton": "Send Message"
+  },
+  "footer": {
+    "organizedBy": "Organized by",
+    "orgName": "AM2I & FSBM – Hassan II University of Casablanca",
+    "address": "Bd Commandant Driss Al Harti, Casablanca 20670, Morocco",
+    "proceedings": "Proceedings",
+    "proceedingsText": "Published in Springer LNCS (Lecture Notes in Computer Science)",
+    "copyright": "© 2024 AM2I - All rights reserved",
+    "tagline": "Moroccan Association for Artificial Intelligence and Innovation"
+  },
+  "locale": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "overview": "Aperçu",
+    "mission": "Mission",
+    "about": "À propos",
+    "activities": "Activités",
+    "membership": "Adhésion",
+    "contact": "Contact",
+    "joinAm2i": "Rejoindre AM2I"
+  },
+  "hero": {
+    "title": "AM2I — Association Marocaine pour l'Intelligence Artificielle et l'Innovation",
+    "subtitle": "Une association scientifique à but non lucratif dédiée à la recherche en IA, à l'innovation et au renforcement des capacités au Maroc et à l'international. Nous soutenons des événements scientifiques de qualité, favorisons la diffusion de la recherche et encourageons la collaboration entre le monde académique, l'industrie et les institutions publiques.",
+    "exploreMission": "Découvrir notre mission",
+    "getInTouch": "Nous contacter"
+  },
+  "mission": {
+    "badge": "Notre orientation",
+    "heading": "Les objectifs d'AM2I",
+    "subheading": "Construire un écosystème IA plus fort grâce à la recherche, la collaboration et l'innovation",
+    "goals": [
+      "Promouvoir l'excellence en recherche en IA et en innovation",
+      "Soutenir les conférences, ateliers et formations internationales",
+      "Encourager les publications de qualité et les pratiques de recherche responsables",
+      "Renforcer les réseaux académiques et professionnels",
+      "Favoriser des applications IA utiles à la société et au développement durable"
+    ],
+    "principlesHeading": "Principes clés",
+    "principlesSubheading": "Les valeurs qui guident notre travail et nos partenariats",
+    "principles": [
+      "Excellence en recherche avec intégrité scientifique et standards de reproductibilité",
+      "Développement responsable de l'IA axé sur des applications éthiques et durables",
+      "Collaboration internationale favorisant l'échange de connaissances entre institutions",
+      "Engagement communautaire et renforcement des capacités pour la nouvelle génération de chercheurs en IA"
+    ]
+  },
+  "about": {
+    "badge": "Qui sommes-nous",
+    "heading": "À propos d'AM2I",
+    "intro": "L'Association Marocaine pour l'Intelligence Artificielle et l'Innovation (AM2I) est une association scientifique engagée dans la construction d'un écosystème IA fort à travers la promotion de la recherche, le transfert de connaissances et la collaboration internationale.",
+    "keyMissions": [
+      "Soutenir les chercheurs, doctorants et innovateurs en IA et science des données",
+      "Encourager les partenariats entre institutions marocaines et internationales",
+      "Promouvoir une IA responsable, l'intégrité scientifique et la reproductibilité",
+      "Contribuer à la formation et à la sensibilisation via séminaires et événements",
+      "Offrir une plateforme durable pour l'innovation en IA et la diffusion de la recherche"
+    ],
+    "cardTitle": "Soutenir l'innovation mondiale",
+    "cardText": "AM2I soutient activement des initiatives telles que IANLP 2026, contribuant au développement des échanges scientifiques internationaux en IA et en traitement du langage naturel.",
+    "initiativeLabel": "Initiative clé",
+    "initiativeName": "IANLP 2026 — Conférence internationale sur l'IA et le TALN",
+    "commitmentTitle": "Notre engagement",
+    "commitmentText": "Nous croyons que l'innovation en IA doit être accessible, éthique et bénéfique à la société. AM2I crée des espaces où chercheurs, universitaires, étudiants et professionnels peuvent collaborer, partager leurs connaissances et développer des solutions aux défis réels tout en respectant les plus hauts standards d'intégrité scientifique."
+  },
+  "activities": {
+    "badge": "Ce que nous faisons",
+    "heading": "Activités AM2I",
+    "subheading": "Des programmes complets conçus pour faire avancer la recherche et l'innovation en IA",
+    "items": [
+      { "title": "Conférences et ateliers", "description": "Événements internationaux en IA, TALN et science des données" },
+      { "title": "Séminaires et webinaires", "description": "Interventions d'experts et présentations de recherche" },
+      { "title": "Sessions de formation", "description": "Renforcement des capacités pour étudiants et professionnels" },
+      { "title": "Réseaux de recherche", "description": "Programmes de collaboration académique" },
+      { "title": "Soutien à la publication", "description": "Initiatives de diffusion scientifique" },
+      { "title": "Engagement communautaire", "description": "Discussions sur une IA responsable et impactante" }
+    ]
+  },
+  "membership": {
+    "badge": "Rejoindre notre communauté",
+    "heading": "Adhésion AM2I",
+    "subheading": "AM2I accueille les chercheurs, universitaires, étudiants et professionnels intéressés par l'intelligence artificielle et l'innovation.",
+    "benefitsTitle": "Avantages des membres",
+    "benefits": [
+      "Accès aux événements scientifiques AM2I et opportunités de réseautage",
+      "Opportunités de collaboration et de partenariat",
+      "Visibilité via les activités et initiatives soutenues par AM2I",
+      "Participation aux comités scientifiques et actions communautaires"
+    ],
+    "cta": "Adhésion bientôt disponible",
+    "ctaNote": "Plus de détails sur les frais d'adhésion et la procédure de candidature seront bientôt disponibles."
+  },
+  "contact": {
+    "badge": "Nous contacter",
+    "heading": "Contact AM2I",
+    "subheading": "Des questions ? Nous serions ravis de vous entendre. Contactez-nous par l'un de ces canaux.",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "location": "Adresse",
+    "locationSub": "Université Hassan II",
+    "sendMessageTitle": "Envoyez-nous un message",
+    "fullName": "Nom complet",
+    "emailAddress": "Adresse e-mail",
+    "message": "Message",
+    "placeholderName": "Votre nom",
+    "placeholderEmail": "votre.email@exemple.com",
+    "placeholderMessage": "Parlez-nous de votre demande...",
+    "sendButton": "Envoyer le message"
+  },
+  "footer": {
+    "organizedBy": "Organisé par",
+    "orgName": "AM2I & FSBM – Université Hassan II de Casablanca",
+    "address": "Bd Commandant Driss Al Harti, Casablanca 20670, Maroc",
+    "proceedings": "Actes",
+    "proceedingsText": "Publiés dans Springer LNCS (Lecture Notes in Computer Science)",
+    "copyright": "© 2024 AM2I - Tous droits réservés",
+    "tagline": "Association Marocaine pour l'Intelligence Artificielle et l'Innovation"
+  },
+  "locale": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  }
+}
