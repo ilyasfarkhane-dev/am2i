@@ -2,27 +2,7 @@
 
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-
-const officeTranslations: Record<string, string> = {
-  officeMembers: 'Office Members',
-  officeMembersSub: 'Each with their role.',
-  office1: 'President: Ben El Ahmar El Habib',
-  office2: 'Vice President: Sanaa El Filali',
-  office3: 'General Secretary: Fawzia Benabbo',
-  office4: 'Deputy General Secretary: Mohamed Ait Daoud',
-  office5: 'Treasurer: Omar Zahour',
-  office6: 'Advisor: Sara Quahabi',
-  office7: 'Advisor: Mohcine Ben El Tayeb',
-};
-const t = (key: string) => officeTranslations[key] ?? key;
-
-const keyMissions = [
-  'Support researchers, PhD students, and innovators in AI and data science',
-  'Encourage partnerships between Moroccan and international institutions',
-  'Promote responsible AI, scientific integrity, and reproducibility',
-  'Contribute to training and awareness through seminars and events',
-  'Provide a sustainable platform for AI innovation and research dissemination',
-];
+import { useTranslations } from 'next-intl';
 
 export function About() {
   const t = useTranslations('about');

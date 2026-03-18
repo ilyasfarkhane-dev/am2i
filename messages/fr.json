@@ -50,7 +50,16 @@
     "initiativeLabel": "Initiative clé",
     "initiativeName": "IANLP 2026 — Conférence internationale sur l'IA et le TALN",
     "commitmentTitle": "Notre engagement",
-    "commitmentText": "Nous croyons que l'innovation en IA doit être accessible, éthique et bénéfique à la société. AM2I crée des espaces où chercheurs, universitaires, étudiants et professionnels peuvent collaborer, partager leurs connaissances et développer des solutions aux défis réels tout en respectant les plus hauts standards d'intégrité scientifique."
+    "commitmentText": "Nous croyons que l'innovation en IA doit être accessible, éthique et bénéfique à la société. AM2I crée des espaces où chercheurs, universitaires, étudiants et professionnels peuvent collaborer, partager leurs connaissances et développer des solutions aux défis réels tout en respectant les plus hauts standards d'intégrité scientifique.",
+    "officeMembers": "Membres du bureau",
+    "officeMembersSub": "Chacun avec son rôle.",
+    "office1": "Président : Ben El Ahmar El Habib",
+    "office2": "Vice-présidente : Sanaa El Filali",
+    "office3": "Secrétaire générale : Fawzia Benabbo",
+    "office4": "Secrétaire général adjoint : Mohamed Ait Daoud",
+    "office5": "Trésorier : Omar Zahour",
+    "office6": "Conseillère : Sara Quahabi",
+    "office7": "Conseiller : Mohcine Ben El Tayeb"
   },
   "activities": {
     "badge": "Ce que nous faisons",
